@@ -12,6 +12,8 @@
 		  "",
 		  "",
 		  "#define ll long long",
+		  "",
+		  "",
 		  "void solve() {",
 		  "	$0",
 		  "}",
