@@ -72,13 +72,6 @@
 		],
 		"description": "push_back()"
 	},
-	"iterate all": {
-		"prefix": "all",
-		"body": [
-		  "${1:v}.begin(), ${1:v}.end()${0}",
-		],
-		"description": ""
-	},
 	"reverse iterate all": {
 		"prefix": "rall",
 		"body": [
@@ -87,7 +80,7 @@
 		"description": ""
 	},
 	"ttt": {
-		"prefix": "a",
+		"prefix": "sdf",
 		"body": [
 		  "/**",
 		  " *	author 	: nxtsourav7",
@@ -97,9 +90,12 @@
 		  "",
 		  "#include<bits/stdc++.h>",
 		  "using namespace std;",
+		  "",
 		  "#define endl \"\\n\"",
 		  "#define ll long long ",
-		  "#define sz(x) x.size()",
+		  "#define sz(x) (int)x.size()",
+		  "#define all(x) x.begin(), x.end()",
+		  "#define rall(x) x.rbegin(), x.rend()",
 		  "",
 		  "",
 		  "int32_t main() {",
